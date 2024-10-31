@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #00919C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+main {
+ 
+    padding: 20px;
+    text-align: center;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close-btn {
+    float: right;
+    cursor: pointer;
+}
+.services-box {
+    background-color: #ffffff; /* White background for the box */
+    border: 1px solid #00919C; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px auto; /* Center the box */
+    max-width: 600px; /* Limit the width */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.services-box h2 {
+    text-align: center; /* Center the heading */
+}
+
+.services-box ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.services-box ul li {
+    padding: 10px 0; /* Space between list items */
+    border-bottom: 1px solid #e0e0e0; /* Bottom border for each item */
+}
+
+.services-box ul li:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+.popup {
+    display: none; /* Hide the popup by default */
+    position: fixed; /* Fixed position to cover the entire screen */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    justify-content: center; /* Centering the content */
+    align-items: center; /* Centering the content */
+    z-index: 1000; /* High z-index to ensure it appears above other content */
+}
+
+.popup-content {
+    background-color: #ffffff; /* White background for the pop-up */
+    padding: 30px; /* Padding inside the pop-up */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-align: center; /* Center text inside the pop-up */
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Maximum width */
+}
+
+.close-btn {
+    float: right; /* Position close button to the right */
+    font-size: 20px; /* Font size for close button */
+    cursor: pointer; /* Cursor change on hover */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin: 10px 0 5px; /* Spacing for labels */
+}
+
+input[type="text"], 
+input[type="email"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+button {
+    background-color: #002782; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor change on hover */
+    margin-top: 15px; /* Space above the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
